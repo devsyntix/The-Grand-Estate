@@ -22,7 +22,6 @@ import { LightboxModal } from './components/common/LightboxModal';
 import { VideoModal } from './components/common/VideoModal';
 import { DemoLeadsDrawer } from './components/common/DemoLeadsDrawer';
 import { ConversionWidgets } from './components/common/ConversionWidgets';
-import { DevSyntixShowcaseBar } from './components/common/DevSyntixShowcaseBar';
 
 import { GALLERY_IMAGES } from './data/estateData';
 import type { LeadSubmission } from './types';
@@ -106,12 +105,6 @@ export function App() {
 
   return (
     <div className="min-h-screen bg-[#FBF9F4] text-[#121614] selection:bg-[#C5A880] selection:text-[#061D15]">
-      {/* DevSyntix Demo Controls */}
-      <DevSyntixShowcaseBar
-        onOpenLeadsDrawer={() => setIsLeadsDrawerOpen(true)}
-        leadsCount={leads.length}
-      />
-
       {/* Toast Notification */}
       {toastMessage && (
         <div className="fixed top-20 right-4 sm:right-8 z-50 p-4 rounded-2xl bg-[#091D16] border border-[#D4AF37] text-white shadow-2xl flex items-center gap-3 animate-slideDown max-w-md">

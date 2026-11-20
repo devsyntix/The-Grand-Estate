@@ -306,10 +306,10 @@ export const Hero: React.FC<HeroProps> = ({
                 </div>
               )}
 
-              {/* Mandatory Demo Disclaimer */}
+              {/* Project Assurance */}
               <div className="mt-4 pt-3 border-t border-[#C5A880]/20 text-[10px] text-[#A0AFA8] leading-tight text-center">
-                <span className="text-[#C5A880] font-semibold">Demo Notice: </span>
-                This is a demonstration property project created by DevSyntix to showcase web capabilities for Indian real estate builders.
+                <span className="text-[#C5A880] font-semibold">Official Concierge: </span>
+                Direct Developer Enquiries • Verified RERA Luxury Residential Villa Project
               </div>
             </div>
           </div>

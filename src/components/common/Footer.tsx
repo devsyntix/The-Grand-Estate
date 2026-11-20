@@ -57,9 +57,6 @@ export const Footer: React.FC = () => {
                     <span className="font-serif font-bold text-lg text-white tracking-widest">
                       DEV SYNTIX
                     </span>
-                    <span className="text-[10px] uppercase tracking-widest px-1.5 py-0.5 rounded bg-[#C5A880] text-[#061D15] font-bold">
-                      BUILDER
-                    </span>
                   </div>
                   <span className="text-[10px] tracking-[0.25em] text-[#C5A880] uppercase font-sans">
                     Premium Real Estate Website Solutions
